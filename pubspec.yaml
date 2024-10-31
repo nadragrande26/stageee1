@@ -1,0 +1,30 @@
+name: myapp
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  image_picker: ^0.8.4+4
+  http: ^0.13.3
+  webview_flutter: ^2.0.10 
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.6.0
+  google_sign_in: ^6.1.0
+  firebase_auth_web: ^5.8.13
+
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
